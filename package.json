@@ -1,0 +1,24 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "Project repo",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite" : "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dajagas/projectrepo.git"
+  },
+  "author": "Swaminathan Chellappa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dajagas/projectrepo/issues"
+  },
+  "homepage": "https://github.com/Dajagas/projectrepo#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
