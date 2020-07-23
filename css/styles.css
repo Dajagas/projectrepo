@@ -67,18 +67,35 @@ body{
 }
 
 .modal-header{
-    background: #000000;
-    color: floralwhite;   
+    background: greenyellow;
+    color: black;   
 }
 
 .modal-header .close{
-    color: floralwhite;
+    color: black;
 }
 
-.form-control{
-    background: grey;
+.modal-dialog{
+    width: 500px;
+    margin: auto;
 }
-.form-control .placeholder{
-    color:  floralwhite;
+
+#checkstrengthButton{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 0%;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.2s; 
 }
+
+#checkstrengthButton:hover{
+    color:  green;
+    background:  #39ff14;
+    box-shadow: 0 0 10px  #39ff14, 0 0 40px  #39ff14, 0 0 80px  #39ff14;
+}
+
 
