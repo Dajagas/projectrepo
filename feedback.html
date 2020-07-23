@@ -15,50 +15,51 @@
 
     <body>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand mb-0 h1" href="./index.html">PWNED</a>
+            <a class="navbar-brand" href="./index.html">PWNED</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
             <div class="collapse navbar-collapse" id="navbarContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./aboutus.html">About us</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="./feedback.html">Feedback</a>
                 </li>
               </ul>
               <span class="navbar-text">
-                  <a id="loginButton">
+                <a id="loginButton">
                     <span class="fa fa-sign-in"></span> Login
                   </a>
-              </span>
+            </span>
             </div>
           </nav>
 
           
-          <div id="loginModal" class="modal fade centered " role="dialog">
+          <div id="loginModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg" role="content">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title">Login</h4>
+                        <h4 class="modal-title bg-dark">Login</h4>
                         <button type="button" class="close" data-dismiss="modal">
                             &times; 
                         </button>
                     </div>
-                    <div class="modal-body bg-dark">
+                    <div class="modal-body">
                         <form>
-                                <div class="form-group row col-sm-4">
-                                        <label class="sr-only" for="loginEmail">Email address</label>
-                                        <input type="email" class="form-control form-control-sm mr-1" id="loginEmail" placeholder="Enter email">
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                        <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                        <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
                                 </div>
-                                <div class="form-group row col-sm-4">
-                                    <label class="sr-only" for="loginPassword">Password</label>
-                                    <input type="password" class="form-control form-control-sm mr-1" id="loginPassword" placeholder="Password">
+                                <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                    <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
                                 </div>
                                 <div class="col-sm-auto">
                                     <div class="form-check">
@@ -68,7 +69,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group-row">
+                            <div class="form-row">
                                 <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
                                 <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
                             </div>
@@ -78,15 +79,7 @@
             </div>
         </div>
 
-        <div class="jumbotron jumbotron-fluid bg-dark">
-            <div class="container">
-              <h1 class="display-4">Has your password been PWN'ED?</h1>
-              <p class="lead">Type your password below and check if it can resist the hacker wave,All the best!</p>
-            </div>
-        </div>
 
-
-        
     
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
